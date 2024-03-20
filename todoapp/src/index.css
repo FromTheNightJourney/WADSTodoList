@@ -9,7 +9,7 @@ body {
     padding: 0; 
     height: 100vh; 
     background-color: black;
-    background: url('src/resources/backg.png') no-repeat center center fixed;
+    background: url('public/static/images/backg.png') no-repeat center center fixed;
     background-size: cover; 
 }
 
