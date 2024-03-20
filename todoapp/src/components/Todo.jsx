@@ -63,7 +63,7 @@ const Todo = () => {
         className="ml-4 p-2 text-white rounded hover:bg-deb887 focus:outline-none"
         onClick={handleAddTodoClick} // handling click on add todo button
         >
-        <img src="public\static\images\plus5.jpg" alt="Add" style={{ width: '40px', height: '40px' }}/> {/* image for add button */}
+        <img src="/plus5.jpg" alt="Add" style={{ width: '40px', height: '40px' }}/> {/* image for add button */}
       </button> 
 
       </div>
@@ -79,7 +79,7 @@ const Todo = () => {
             value={searchTerm}
             onChange={(e) => handleSearchChange(e.target.value)} 
           />
-          <img src='public\static\images\serch.png' alt="Search" className="ml-4 w-6 h-6 cursor-pointer" />
+          <img src='/serch.png' alt="Search" className="ml-4 w-6 h-6 cursor-pointer" />
         </div>
       </div>
 
